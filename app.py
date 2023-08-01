@@ -9,8 +9,8 @@ ps = PorterStemmer()
 #we need to create pickle files for the deployment
 
 #to open the pickle files
-tfidf=pickle.load(open('C:/Users/febin/OneDrive/Desktop/Intership/vectorizer.pkl', 'rb'))
-model=pickle.load(open('C:/Users/febin/OneDrive/Desktop/Intership/model.pkl', 'rb'))
+tfidf=pickle.load(open('Intership/vectorizer.pkl', 'rb'))
+model=pickle.load(open('Intership/model.pkl', 'rb'))
 st.title("SMS SPAM CLASSIFIER")#THE TITLE OF THE APPLICATION
 input = st.text_input("Enter your SMS here")
 
